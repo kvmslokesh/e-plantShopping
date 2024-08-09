@@ -1,4 +1,82 @@
 /* Reset some default styles */
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333; /* Dark background for contrast */
+    color: white; /* White text for visibility */
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+}
+
+.luxury {
+    display: flex;
+    align-items: center;
+}
+
+.luxury img {
+    width: 50px; /* Adjust size as needed */
+    margin-right: 10px; /* Space between image and text */
+}
+
+.luxury h3, .luxury i {
+    margin: 0; /* Remove default margins */
+}
+
+.luxury h3 {
+    color: white; /* Ensure text is white */
+}
+
+.luxury i {
+    color: #ddd; /* Slightly lighter color for subtitle */
+}
+
+.navbar a {
+    color: white; /* White links for visibility */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.navbar a:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+}
+
+.styleObjUl {
+    display: flex;
+    gap: 20px;
+}
+
+.styleObjUl div {
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.cart svg {
+    fill: white; /* White color for the SVG icon */
+}
+
+.styleA {
+    color: white; /* Ensure link text is white */
+    font-size: 16px; /* Adjust font size as needed */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.styleA:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+}
+
 .product-grid {
     display: flex;
     flex-wrap: wrap;
@@ -15,6 +93,8 @@
     flex-wrap: wrap;
     gap: 20px;
 }
+
+
 
 /* Product Card */
 .product-card {
